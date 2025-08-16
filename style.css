@@ -1,0 +1,40 @@
+html,
+body {
+  height: 100%;
+}
+
+body {
+  background-color: white;
+  margin: 0;
+  padding: 0;
+}
+
+.hero-container {
+  background-image: url('https://images.pexels.com/photos/8029437/pexels-photo-8029437.jpeg');
+  opacity: 85%;
+  background-size: cover;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 0 5px 0 5px;
+  height: 100%;
+  max-height: 750px;
+}
+
+.hero-container:hover {
+  background-position: center;
+  opacity: 100%;
+  transition: all;
+  transition-delay: 200ms;
+  transition-duration: 300ms;
+}
+
+.jumbotron {
+  color: white;
+  opacity: 100%;
+  width: 100%;
+}
+
+.jumbotron > h1 {
+  color: rgb(126, 192, 250);
+  text-shadow: 2px 2px 10px #000;
+}
