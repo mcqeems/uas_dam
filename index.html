@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
+    <meta charset="UTF--8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="icon" type="image/png" href="favicon.png" />
     <link rel="stylesheet" href="style.css" />
@@ -27,21 +27,181 @@
             <img src="./src/logo.png" alt="Logo" width="35" height="35" class="d-inline-block align-text-top" />
             <b> Garbage.io </b>
           </a>
-          <button type="button" class="btn btn-primary">About us</button>
+          <button type="button" class="btn btn-primary about-us-btn">About us</button>
         </div>
       </nav>
     </header>
     <div class="hero-container d-flex align-items-end">
       <div class="jumbotron">
         <h1 class="display-2">Throw your garbage!</h1>
-        <p class="lead">You want to know why throwing your garbage is a life changer?</p>
+        <p class="lead">Anda mau tahu kenapa membuang sampah pada tempatnya bisa mengubah hidup?</p>
         <hr class="my-4" />
-        <p>Let's explore and you'll be pleased!</p>
-        <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+        <p>Mari kita jelajahi dan Anda akan senang!</p>
+        <a class="btn btn-primary btn-lg learn-more-btn" href="#solutions" role="button">Pelajari lebih lanjut</a>
       </div>
     </div>
 
-    <footer></footer>
+    <main class="container my-5">
+      <section id="solutions" class="text-center">
+        <h2 class="display-4">Kenapa peduli sampah?</h2>
+        <p class="lead">
+          Sampah yang tidak dikelola dengan baik dapat menyebabkan banyak masalah, mulai dari pencemaran lingkungan
+          hingga masalah kesehatan. Tapi, ada banyak solusi yang bisa kita lakukan bersama!
+        </p>
+        <div class="row mt-5">
+          <div class="col-md-4 d-flex align-items-stretch">
+            <div class="card solution-card">
+              <div class="card-body d-flex flex-column text-center">
+                <img src="./src/reduce.svg" alt="Reduce Icon" class="card-icon mx-auto" />
+                <h5 class="card-title mt-3">Kurangi (Reduce)</h5>
+                <p class="card-text">
+                  Kurangi penggunaan produk sekali pakai. Bawa tas belanja sendiri, gunakan botol minum yang bisa diisi
+                  ulang, dan hindari kemasan yang tidak perlu.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 d-flex align-items-stretch">
+            <div class="card solution-card">
+              <div class="card-body d-flex flex-column text-center">
+                <img src="./src/reuse.svg" alt="Reuse Icon" class="card-icon mx-auto" />
+                <h5 class="card-title mt-3">Gunakan Kembali (Reuse)</h5>
+                <p class="card-text">
+                  Gunakan kembali barang-barang yang masih layak pakai. Donasikan pakaian lama, perbaiki barang yang
+                  rusak, dan berkreasilah dengan barang bekas.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 d-flex align-items-stretch">
+            <div class="card solution-card">
+              <div class="card-body d-flex flex-column text-center">
+                <img src="./src/recycle.svg" alt="Recycle Icon" class="card-icon mx-auto" />
+                <h5 class="card-title mt-3">Daur Ulang (Recycle)</h5>
+                <p class="card-text">
+                  Pisahkan sampah sesuai jenisnya agar mudah didaur ulang. Sampah organik bisa menjadi kompos, dan
+                  sampah anorganik bisa diolah menjadi produk baru.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <hr class="my-5" />
+
+      <section id="about-us" class="row align-items-center">
+        <div class="col-md-6">
+          <img src="./src/logo-500.png" class="img-fluid rounded-circle" alt="Garbage.io Logo" />
+        </div>
+        <div class="col-md-6">
+          <h2 class="display-4">Tentang Garbage.io</h2>
+          <p class="lead">
+            Garbage.io adalah sebuah yayasan yang berdedikasi untuk menciptakan lingkungan yang lebih bersih dan
+            masyarakat yang lebih sejahtera. Kami percaya bahwa sampah bukanlah akhir dari segalanya, melainkan awal
+            dari sesuatu yang baru.
+          </p>
+          <p class="lead">
+            Kami mengumpulkan donasi untuk membantu para pengrajin dan inovator lokal dalam mengolah sampah menjadi
+            produk-produk yang bermanfaat dan bernilai jual. Keuntungan dari penjualan produk ini kemudian disalurkan
+            kembali kepada masyarakat yang membutuhkan dalam bentuk program-program sosial dan pendidikan.
+          </p>
+          <p class="lead">
+            Dengan bergabung bersama kami, Anda tidak hanya membantu membersihkan lingkungan, tetapi juga turut serta
+            dalam memberdayakan masyarakat dan menciptakan masa depan yang lebih baik.
+          </p>
+          <a class="btn btn-success btn-lg" href="#" role="button"> Pelajari Lebih Lanjut </a>
+        </div>
+      </section>
+
+      <hr class="my-5" />
+
+      <section id="gallery" class="text-center">
+        <h2 class="display-4">Galeri Aksi Kami</h2>
+        <p class="lead">Lihatlah bagaimana donasi Anda telah membantu mengubah sampah menjadi harapan.</p>
+        <div class="row mt-5">
+          <div class="col-lg-4 col-md-6 mb-4">
+            <div class="card gallery-card">
+              <img
+                src="https://images.pexels.com/photos/6995367/pexels-photo-6995367.jpeg"
+                class="card-img-top"
+                alt="Gallery Image 1"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Pelatihan Daur Ulang Plastik</h5>
+                <p class="card-text">
+                  Memberdayakan ibu-ibu rumah tangga dengan keterampilan mengolah botol plastik menjadi kerajinan tangan
+                  yang bernilai.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 mb-4">
+            <div class="card gallery-card">
+              <img
+                src="https://images.pexels.com/photos/8926044/pexels-photo-8926044.jpeg"
+                class="card-img-top"
+                alt="Gallery Image 2"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Program Bank Sampah Sekolah</h5>
+                <p class="card-text">
+                  Anak-anak belajar memilah sampah sejak dini dan menabung hasilnya untuk keperluan sekolah mereka.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 mb-4">
+            <div class="card gallery-card">
+              <img
+                src="https://images.pexels.com/photos/7728736/pexels-photo-7728736.jpeg"
+                class="card-img-top"
+                alt="Gallery Image 3"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Pembuatan Kompos Komunal</h5>
+                <p class="card-text">
+                  Warga bergotong-royong mengolah sampah organik dari dapur mereka menjadi pupuk kompos untuk kebun
+                  bersama.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <hr class="my-5" />
+
+      <section id="donation-progress" class="text-center">
+        <h2 class="display-4">Target Donasi Kami</h2>
+        <p class="lead">Kami membutuhkan dukungan Anda untuk mencapai target kami dan membantu lebih banyak orang.</p>
+        <div class="progress-container mx-auto" style="max-width: 800px">
+          <div class="d-flex justify-content-between">
+            <span>Rp 75.000.000 Terkumpul</span>
+            <span>Target: Rp 100.000.000</span>
+          </div>
+          <div class="progress" style="height: 30px">
+            <div
+              class="progress-bar progress-bar-striped progress-bar-animated bg-success"
+              role="progressbar"
+              style="width: 75%"
+              aria-valuenow="75"
+              aria-valuemin="0"
+              aria-valuemax="100"
+            >
+              75%
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="bg-primary-subtle text-center text-lg-start mt-5">
+      <div class="text-center p-3">
+        © 2025 Copyright:
+        <a class="text-dark" href="#">Garbage.io</a>
+      </div>
+    </footer>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
